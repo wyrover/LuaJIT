@@ -14,3 +14,7 @@ Please point your favorite browser to:
 
  doc/luajit.html
 
+
+
+添加 CMakeLists.txt，${SRCROOT}/lj_vm.obj 找不到应该先注释掉生成工程，通过 buildvm 生成 lj_vm.obj 后，
+反注释 ${SRCROOT}/lj_vm.obj ，再生成一遍工程。
